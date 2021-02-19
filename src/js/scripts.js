@@ -1,3 +1,4 @@
-
-	console.log('seth');
-
+// IFFE
+;(function() {
+	console.log(location);
+})();
