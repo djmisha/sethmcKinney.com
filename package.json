@@ -1,17 +1,17 @@
 {
-	"name": "amex-gbt-portal",
+	"name": "sethmckinney.com",
 	"version": "0.0.1",
-	"description": "Interactive form",
+	"description": "sethmckinney.com website",
 	"main": "./dist/index.html",
-	"staging": "gbt-portal-form.netlify.com",
+	"staging": "https://gracious-turing-7c87ff.netlify.app/",
 	"author": {
-		"name": "Lewis",
-		"url": "https://www.teamlewis.com"
+		"name": "Misha",
+		"url": "https://mynameismisha..com"
 	},
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://bitbucket.org/mishaosinovskiy/amex-gbt-portal/src/master/"
+		"url": "https://github.com/djmisha/sethmckinney.com"
 	},
 	"boilerplate": {
 		"version": "2.2.6",
