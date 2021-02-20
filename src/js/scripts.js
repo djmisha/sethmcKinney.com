@@ -1,4 +1,5 @@
 // IFFE
-;(function() {
-	console.log(location);
+(function () {
+    var d = new Date();
+    console.log(location, d);
 })();
