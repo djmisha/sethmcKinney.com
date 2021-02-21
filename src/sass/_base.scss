@@ -15,10 +15,8 @@ body {
     text-transform: uppercase;
     background-color: #fff;
     transition: all 0.5s ease-in-out;
-    transform: rotate(0deg);
     &.spin {
         background-color: black;
-        transform: rotate(-360deg);
     }
 }
 
@@ -83,8 +81,9 @@ main {
     cursor: pointer;
     transition: all 0.5s ease-in-out;
     transform: rotate(0deg);
+    transform-style: preserve-3d;
     &.spin {
-        transform: rotate(360deg);
+        transform: rotateY(360deg);
     }
 }
 
