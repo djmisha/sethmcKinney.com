@@ -16,10 +16,10 @@ body {
   line-height: 18px;
   color: #58595b;
   font-family: "Raleway", sans-serif;
-  background-color: #fff !important;
   max-width: 800px;
   margin: 0 auto;
   text-transform: uppercase;
+  background-color: #fff;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -webkit-transform: rotate(0deg);
@@ -29,11 +29,12 @@ body {
 
 /* line 20, src/sass/_base.scss */
 body.spin {
-  -webkit-transform: rotate(-180deg);
-          transform: rotate(-180deg);
+  background-color: black;
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
 }
 
-/* line 25, src/sass/_base.scss */
+/* line 26, src/sass/_base.scss */
 h1,
 h2,
 h3,
@@ -45,43 +46,43 @@ p {
   font-weight: normal;
 }
 
-/* line 36, src/sass/_base.scss */
+/* line 37, src/sass/_base.scss */
 h1 {
   font-weight: bold;
   font-size: 24px;
   line-height: 1.4em;
 }
 
-/* line 42, src/sass/_base.scss */
+/* line 43, src/sass/_base.scss */
 h2 {
   font-size: 16px;
   line-height: 22px;
 }
 
-/* line 47, src/sass/_base.scss */
+/* line 48, src/sass/_base.scss */
 h3 {
   font-size: 18px;
   line-height: 22px;
 }
 
-/* line 52, src/sass/_base.scss */
+/* line 53, src/sass/_base.scss */
 p {
   padding-bottom: 30px;
 }
 
 @media only screen and (min-width: 1280px) {
-  /* line 56, src/sass/_base.scss */
+  /* line 57, src/sass/_base.scss */
   section {
     padding: 0 calc(40px + (50% - (1280px / 2)));
   }
 }
 
-/* line 62, src/sass/_base.scss */
+/* line 63, src/sass/_base.scss */
 header {
   text-align: center;
 }
 
-/* line 66, src/sass/_base.scss */
+/* line 67, src/sass/_base.scss */
 img.logo {
   padding-top: 80px;
   max-width: 80%;
@@ -89,19 +90,19 @@ img.logo {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 66, src/sass/_base.scss */
+  /* line 67, src/sass/_base.scss */
   img.logo {
     max-width: 400px;
   }
 }
 
-/* line 75, src/sass/_base.scss */
+/* line 76, src/sass/_base.scss */
 main {
   margin-top: 80px;
   text-align: center;
 }
 
-/* line 80, src/sass/_base.scss */
+/* line 81, src/sass/_base.scss */
 .face {
   border-radius: 50%;
   margin-bottom: 40px;
@@ -112,25 +113,25 @@ main {
           transform: rotate(0deg);
 }
 
-/* line 86, src/sass/_base.scss */
+/* line 87, src/sass/_base.scss */
 .face.spin {
-  -webkit-transform: rotate(-180deg);
-          transform: rotate(-180deg);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
-/* line 91, src/sass/_base.scss */
+/* line 92, src/sass/_base.scss */
 .social {
   padding-top: 40px;
   padding-bottom: 80px;
 }
 
-/* line 96, src/sass/_base.scss */
+/* line 97, src/sass/_base.scss */
 .social img {
   width: 40px;
   height: 40px;
 }
 
-/* line 101, src/sass/_base.scss */
+/* line 102, src/sass/_base.scss */
 .social span {
   display: none;
 }
