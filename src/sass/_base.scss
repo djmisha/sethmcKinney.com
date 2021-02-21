@@ -16,7 +16,6 @@ body {
     background-color: #fff;
     transition: all 0.5s ease-in-out;
     transform: rotate(0deg);
-    overflow: hidden;
     &.spin {
         background-color: black;
         transform: rotate(-360deg);
