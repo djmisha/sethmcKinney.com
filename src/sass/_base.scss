@@ -14,6 +14,12 @@ body {
     max-width: 800px;
     margin: 0 auto;
     text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    transform: rotate(0deg);
+    overflow: hidden;
+    &.spin {
+        transform: rotate(-180deg);
+    }
 }
 
 h1,
@@ -74,10 +80,17 @@ main {
 .face {
     border-radius: 50%;
     margin-bottom: 40px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: rotate(0deg);
+    &.spin {
+        transform: rotate(-180deg);
+    }
 }
 
 .social {
     padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 .social img {
